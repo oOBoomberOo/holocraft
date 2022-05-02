@@ -14,7 +14,7 @@ jobs:
       - uses: actions/setup-java@v3
         with:
           distribution: 'zulu'
-          java-version: '16'
+          java-version: '8'
 
       - name: Install Forge Server
         run: |
@@ -27,7 +27,7 @@ jobs:
           cp -r mods ./server/mods
       - name: Rename server executable to a standard format
         run: |
-          mv ./server/forge*.jar ./server/customjava16.jar
+          mv ./server/forge*.jar ./server/custom.jar
       - uses: sebastianpopp/ftp-action@v2.0.0
         with:
           localDir: server
