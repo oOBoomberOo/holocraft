@@ -20,7 +20,7 @@ jobs:
         working-directory: curse
       - uses: actions/upload-artifact@v3
         with:
-          name: curseforge.zip
+          name: curseforge
           path: curse/curseforge.zip
   build-multimc:
     runs-on: ubuntu-latest
@@ -36,7 +36,7 @@ jobs:
       - run: zip -r multimc.zip multimc
       - uses: actions/upload-artifact@v3
         with:
-          name: multimc.zip
+          name: multimc
           path: multimc.zip
   build-server:
     runs-on: ubuntu-latest
@@ -65,7 +65,7 @@ jobs:
 
       - uses: actions/upload-artifact@v3
         with:
-          name: server.zip
+          name: server
           path: server/server.zip
   release:
     runs-on: ubuntu-latest
@@ -76,8 +76,9 @@ jobs:
       - build-multimc
       - build-server
     steps:
+      - uses: actions/download-artifact@v3
       - uses: ncipollo/release-action@v1
         with:
-          artifacts: '*.zip'
+          artifacts: curseforge/curseforge.zip, multimc/multimc.zip, server/server.zip
           token: ${{ secrets.GITHUB_TOKEN }}
           draft: true
