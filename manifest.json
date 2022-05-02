@@ -1,0 +1,18 @@
+{
+	"minecraft": {
+		"version": "1.16.5",
+		"modLoaders": [
+			{
+				"id": "forge-36.2.34",
+				"primary": true
+			}
+		]
+	},
+	"manifestType": "minecraftModpack",
+	"manifestVersion": 1,
+	"name": "Hope in the dark",
+	"version": "1.0.0",
+	"author": "Boomber",
+	"files": [],
+	"overrides": "overrides"
+}
