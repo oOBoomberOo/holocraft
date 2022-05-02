@@ -5,10 +5,6 @@ on:
     tags:
       - 'v*'
   workflow_dispatch:
-    inputs:
-      version:
-        description: The version of the server to build
-        required: true
 
 jobs:
   build:
@@ -19,15 +15,23 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '16'
-      - run: |
+
+      - name: Install Forge Server
+        run: |
           java -jar installer.jar --installServer server
-      - run: |
-          cp -r ./config ./server/config
-          cp -r ./mods ./server/mods
-      - run: |
-          mv ./server/forge*.jar ./server/custom16.jar
-      - uses: montudor/action-zip@v1
+      - name: Copy Mods
+        run: |
+          mkdir -p config
+          mkdir -p mods
+          cp -r config ./server/config
+          cp -r mods ./server/mods
+      - name: Rename server executable to a standard format
+        run: |
+          mv ./server/forge*.jar ./server/server.jar
+
+      - run: zip -r server.zip .
+        working-directory: server
+
+      - uses: actions/upload-artifact@v3
         with:
-          args: |
-            cd server
-            zip -r server.zip server
+          path: server/server.zip
