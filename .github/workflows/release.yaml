@@ -15,6 +15,8 @@ jobs:
           mkdir -p curse/overrides
           cp -r mods/ curse/overrides/mods
           cp -r config/ curse/overrides/config
+          cp -r options.txt curse/overrides/
+          cp -r servers.dat curse/overrides/
           cp manifest.json curse/manifest.json
       - run: zip -r curseforge.zip .
         working-directory: curse
@@ -33,6 +35,7 @@ jobs:
           cp -r mods multimc/.minecraft
           cp -r config multimc/.minecraft
           cp -r options.txt multimc/.minecraft
+          cp -r servers.dat multimc/.minecraft
       - run: zip -r multimc.zip multimc
       - uses: actions/upload-artifact@v3
         with:
