@@ -20,4 +20,5 @@ jobs:
         working-directory: curse
       - uses: actions/upload-artifact@v3
         with:
+          name: curseforge
           path: curse/curseforge.zip
