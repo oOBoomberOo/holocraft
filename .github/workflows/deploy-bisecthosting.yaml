@@ -28,10 +28,10 @@ jobs:
       - name: Rename server executable to a standard format
         run: |
           mv ./server/forge*.jar ./server/custom16.jar
-      - uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      - uses: sebastianpopp/ftp-action@v2.0.0
         with:
-          local-dir: server/
-          protocol: ftps
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USER }}
+          localDir: server
+          host: ${{ secrets.FTP_SERVER }}
+          user: ${{ secrets.FTP_USER }}
           password: ${{ secrets.FTP_PASSWORD }}
+          forceSsl: true
