@@ -1,0 +1,33 @@
+name: Build Minecraft Server
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: The version of the server to build
+        required: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: '16'
+      - run: |
+          java -jar installer.jar --installServer server
+      - run: |
+          cp -r ./config ./server/config
+          cp -r ./mods ./server/mods
+      - run: |
+          mv ./server/forge*.jar ./server/custom16.jar
+      - uses: montudor/action-zip@v1
+        with:
+          args: |
+            cd server
+            zip -r server.zip server
