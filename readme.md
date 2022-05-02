@@ -10,8 +10,10 @@ A custom modpack for HoloNews server.
 
 ## Curseforge
 
-4. Click "Create Custom Profile" button located in the top-right corner of CurseForge launcher ![](./assets/curseforge-1.png)
-5. Select the "import" option. ![](./assets/curseforge-2.png)
+4. Click the "Create Custom Profile" button located in the top-right corner of the CurseForge launcher.
+![](./assets/curseforge-1.png)
+5. Select the "import" option.  
+![](./assets/curseforge-2.png)
 6. Select the curseforge instance from the file picker.
 ![](./assets/curseforge-3.png)
 7. A new modpack instance will be created in your menu.
@@ -23,8 +25,10 @@ A custom modpack for HoloNews server.
 
 ## MultiMC
 
-4. Click "Add instance" button ![](./assets/multimc-1.png)
-5. Select "Import from zip" option ![](./assets/multimc-2.png)
+4. Click the "Add instance" button.
+![](./assets/multimc-1.png)
+5. Select the "Import from zip" option.
+![](./assets/multimc-2.png)
 6. Select the multimc instance from the file picker.
 ![](./assets/multimc-3.png)
 7. Click "OK" to proceed with the import.
