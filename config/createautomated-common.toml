@@ -1,0 +1,283 @@
+
+# 
+[worldGen]
+	# 
+	#Whether or not CreateAutomated worldgen is enabled
+	enabled = true
+
+	[worldGen.copper_node]
+		# 
+		#Range: > 0
+		minHeight = 40
+		# 
+		#Range: > 0
+		maxHeight = 256
+		# 
+		#Range: > 0
+		clusterSize = 16
+		# 
+		#Amount of clusters generated per Chunk.
+		#  >1 to spawn multiple.
+		#  <1 to make it a chance.
+		#  0 to disable.
+		#Range: 0.0 ~ 512.0
+		frequency = 2.0
+
+		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
+		[worldGen.copper_node.biomes]
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			biomes = []
+			# 
+			#Whether or not this filter is in blacklist mode
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blacklist = true
+
+		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
+		#Start with # if is a tag
+		[worldGen.copper_node.blocks]
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blocks = ["#forge:dirt"]
+			# 
+			#Whether or not this filter is in blacklist mode
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blacklist = false
+
+		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
+		[worldGen.copper_node.categories]
+			# 
+			#Whether or not this filter is in blacklist mode
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blacklist = true
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			categories = ["nether", "the_end"]
+
+	[worldGen.iron_node]
+		# 
+		#Range: > 0
+		minHeight = 40
+		# 
+		#Range: > 0
+		maxHeight = 256
+		# 
+		#Range: > 0
+		clusterSize = 4
+		# 
+		#Amount of clusters generated per Chunk.
+		#  >1 to spawn multiple.
+		#  <1 to make it a chance.
+		#  0 to disable.
+		#Range: 0.0 ~ 512.0
+		frequency = 1.0
+
+		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
+		[worldGen.iron_node.biomes]
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			biomes = []
+			# 
+			#Whether or not this filter is in blacklist mode
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blacklist = true
+
+		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
+		#Start with # if is a tag
+		[worldGen.iron_node.blocks]
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blocks = ["#forge:dirt"]
+			# 
+			#Whether or not this filter is in blacklist mode
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blacklist = false
+
+		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
+		[worldGen.iron_node.categories]
+			# 
+			#Whether or not this filter is in blacklist mode
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blacklist = true
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			categories = ["nether", "the_end"]
+
+	[worldGen.lapis_node]
+		# 
+		#Range: > 0
+		minHeight = 40
+		# 
+		#Range: > 0
+		maxHeight = 256
+		# 
+		#Range: > 0
+		clusterSize = 10
+		# 
+		#Amount of clusters generated per Chunk.
+		#  >1 to spawn multiple.
+		#  <1 to make it a chance.
+		#  0 to disable.
+		#Range: 0.0 ~ 512.0
+		frequency = 4.0
+
+		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
+		[worldGen.lapis_node.biomes]
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			biomes = []
+			# 
+			#Whether or not this filter is in blacklist mode
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blacklist = true
+
+		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
+		#Start with # if is a tag
+		[worldGen.lapis_node.blocks]
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blocks = ["#forge:dirt"]
+			# 
+			#Whether or not this filter is in blacklist mode
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blacklist = false
+
+		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
+		[worldGen.lapis_node.categories]
+			# 
+			#Whether or not this filter is in blacklist mode
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blacklist = true
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			categories = ["nether", "the_end"]
+
+	[worldGen.zinc_node]
+		# 
+		#Range: > 0
+		minHeight = 40
+		# 
+		#Range: > 0
+		maxHeight = 256
+		# 
+		#Range: > 0
+		clusterSize = 9
+		# 
+		#Amount of clusters generated per Chunk.
+		#  >1 to spawn multiple.
+		#  <1 to make it a chance.
+		#  0 to disable.
+		#Range: 0.0 ~ 512.0
+		frequency = 2.0
+
+		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
+		[worldGen.zinc_node.biomes]
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			biomes = []
+			# 
+			#Whether or not this filter is in blacklist mode
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blacklist = true
+
+		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
+		#Start with # if is a tag
+		[worldGen.zinc_node.blocks]
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blocks = ["#forge:dirt"]
+			# 
+			#Whether or not this filter is in blacklist mode
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blacklist = false
+
+		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
+		[worldGen.zinc_node.categories]
+			# 
+			#Whether or not this filter is in blacklist mode
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blacklist = true
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			categories = ["nether", "the_end"]
+
+	[worldGen.gold_node]
+		# 
+		#Range: > 0
+		minHeight = 40
+		# 
+		#Range: > 0
+		maxHeight = 256
+		# 
+		#Range: > 0
+		clusterSize = 6
+		# 
+		#Amount of clusters generated per Chunk.
+		#  >1 to spawn multiple.
+		#  <1 to make it a chance.
+		#  0 to disable.
+		#Range: 0.0 ~ 512.0
+		frequency = 1.0
+
+		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
+		[worldGen.gold_node.biomes]
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			biomes = []
+			# 
+			#Whether or not this filter is in blacklist mode
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blacklist = true
+
+		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
+		#Start with # if is a tag
+		[worldGen.gold_node.blocks]
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blocks = ["#forge:dirt"]
+			# 
+			#Whether or not this filter is in blacklist mode
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blacklist = false
+
+		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
+		[worldGen.gold_node.categories]
+			# 
+			#Whether or not this filter is in blacklist mode
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blacklist = true
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			categories = ["nether", "the_end"]
+
+	[worldGen.cinder_flour_node]
+		# 
+		#Range: > 0
+		minHeight = 0
+		# 
+		#Range: > 0
+		maxHeight = 256
+		# 
+		#Range: > 0
+		clusterSize = 16
+		# 
+		#Amount of clusters generated per Chunk.
+		#  >1 to spawn multiple.
+		#  <1 to make it a chance.
+		#  0 to disable.
+		#Range: 0.0 ~ 512.0
+		frequency = 10.0
+
+		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
+		[worldGen.cinder_flour_node.biomes]
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			biomes = []
+			# 
+			#Whether or not this filter is in blacklist mode
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blacklist = true
+
+		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
+		#Start with # if is a tag
+		[worldGen.cinder_flour_node.blocks]
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blocks = ["#forge:netherrack"]
+			# 
+			#Whether or not this filter is in blacklist mode
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blacklist = false
+
+		#[@cui:CreateautomatedHidden:Create's config screen does not support lists]
+		[worldGen.cinder_flour_node.categories]
+			# 
+			#Whether or not this filter is in blacklist mode
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			blacklist = false
+			#[@cui:CreateautomatedHidden:Hidden without description]
+			categories = ["nether"]
+

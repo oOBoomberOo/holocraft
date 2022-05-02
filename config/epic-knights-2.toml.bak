@@ -1,0 +1,11 @@
+
+["Config for Epic Knights Mod!"]
+	#Works only in game with the difficulty set to hard. Affects whether or not mobs will wear armor from the mod. This is an boolean. Default value is true.
+	"Put Armor on Mobs" = true
+	#Works only if the game is set to the hard difficulty. Affects the chance that mobs will wear armor from the mod. This is an float. Default value is 0.5.
+	"Put Armor Chance" = 0.5
+	#If true, allows wearing decorations on any type of armor, not only from this mod. This is an boolean. Default value is true.
+	"Decorations for All Armor" = true
+	#Doesn't change anything yet! This is an boolean. Default value is true.
+	"Steel Enabled" = true
+

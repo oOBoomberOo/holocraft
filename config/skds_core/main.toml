@@ -1,0 +1,9 @@
+
+[General]
+	#Minimal block updates per tick
+	#Range: 0 ~ 1000000
+	minBlockUpdates = 500
+	#Time befor tick's end to stop synchronized tasks (ms)
+	#Range: 0 ~ 50
+	timeout = 4
+

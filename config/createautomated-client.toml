@@ -1,0 +1,11 @@
+
+# 
+[machines]
+
+	# 
+	[machines.extractor]
+		# 
+		#Whether or not to render the drill head on the item
+		#Turning this off can slightly improve performance
+		renderDrillInItem = true
+
