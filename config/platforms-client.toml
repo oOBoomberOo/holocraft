@@ -8,7 +8,7 @@
 #Select A GUI Style
 [gui_style]
 	#Allowed Values: DEFAULT, VANILLA
-	"Platform Select" = "DEFAULT"
-	#Allowed Values: DEFAULT, VANILLA
 	PlatFormer = "DEFAULT"
+	#Allowed Values: DEFAULT, VANILLA
+	"Platform Select" = "DEFAULT"
 

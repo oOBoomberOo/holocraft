@@ -1,0 +1,9 @@
+
+#Config File for Trajan's Tank Mod
+["Light Tank Stats"]
+	"Light Tank Health (0-250)" = 80.0
+	"Light Tank Speed" = 0.6
+
+["Tank Shell Damages"]
+	"Shell Damage" = 60.0
+
