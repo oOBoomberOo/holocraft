@@ -24,7 +24,7 @@
 		#Range: 0.0 ~ 1.0
 		knockbackStrength = 0.15
 		#If true, improves the accuracy of weapons by considering the ping of the player. This has no affect on singleplayer. This will add a little overhead if enabled.
-		improvedHitboxes = false
+		improvedHitboxes = true
 
 	#Properties relating to network
 	[common.network]
