@@ -22,7 +22,9 @@ jobs:
       - name: Copy Mods
         run: |
           mkdir -p config
+          mkdir -p defaultconfigs
           mkdir -p mods
+          cp -r defaultconfigs ./server/defaultconfigs
           cp -r config ./server/config
           cp -r mods ./server/mods
       - name: Rename server executable to a standard format

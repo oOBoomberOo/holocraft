@@ -13,8 +13,9 @@ jobs:
       - uses: actions/checkout@v3
       - run: |
           mkdir -p curse/overrides
-          cp -r mods/ curse/overrides/mods
-          cp -r config/ curse/overrides/config
+          cp -r mods/ curse/overrides/
+          cp -r config/ curse/overrides/
+          cp -r defaultconfigs/ curse/overrides/
           cp -r options.txt curse/overrides/
           cp -r servers.dat curse/overrides/
           cp manifest.json curse/manifest.json
@@ -33,6 +34,7 @@ jobs:
           cp -r instance.cfg multimc
           cp -r mmc-pack.json multimc
           cp -r mods multimc/.minecraft
+          cp -r defaultconfigs multimc/.minecraft
           cp -r config multimc/.minecraft
           cp -r options.txt multimc/.minecraft
           cp -r servers.dat multimc/.minecraft
@@ -56,7 +58,9 @@ jobs:
       - name: Copy Mods
         run: |
           mkdir -p config
+          mkdir -p defaultconfigs
           mkdir -p mods
+          cp -r defaultconfigs ./server/defaultconfigs
           cp -r config ./server/config
           cp -r mods ./server/mods
       - name: Rename server executable to a standard format
