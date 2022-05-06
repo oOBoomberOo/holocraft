@@ -58,4 +58,8 @@ After getting geared up, you should craft a **Prospector's Pick**, a tool that c
 
 Your machines can emit a cloud of carbon and sulfur gas when being used. If accumulated in an area overtimes, it will cause a negative effect (and even explode!). For early game, the amount emitted is negligible, but it might be a problem when you become industrialized.
 
-Carbon can be pulled back to the ground by planting trees and crops below them, while Sulfur will absolutely not come down unless you clean it up yourself or prevent it from floating up there with a "Pollution Filter". You can also use chimneys from the Advanced Chimneys mod to direct the pollution to the area you wanted.
+Carbon can be pulled back to the ground by planting trees and crops below them, while Sulfur will absolutely not come down unless you clean it up yourself or prevent it from floating up there with a "Pollution Filter". You can also use chimneys from the Advanced Chimneys mod to direct the pollution to the area you want.
+
+## Hololive
+
+Hololive Relics added relics with powerful properties related to their respective members and hololive members to the world.
