@@ -1,10 +1,10 @@
-# Hope in the dark
+# HoloCraft
 
 A custom modpack for HoloNews server.
 
 # Installation
 
-1. Head to the release page on [GitHub](https://github.com/oOBoomberOo/hope-in-the-dark/releases) ![release-page](./assets/release-1.png)
+1. Head to the release page on [GitHub](https://github.com/oOBoomberOo/holocraft/releases) ![release-page](./assets/release-1.png)
 2. Expand the Assets panel to see the modpack files. ![release-assets](./assets/release-2.png)
 3. Download either [CurseForge](#curseforge) or [MultiMC](#multimc) instance and proceed this instruction accordingly.
 
