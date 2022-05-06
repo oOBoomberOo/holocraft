@@ -12,6 +12,102 @@
 
 [custom_weaponry]
 
+	[custom_weaponry.towa_pitchfork]
+		armor_ignorance = 0.2
+		hit_at_once = 3
+		impact = 1.0
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, LONGSWORD, DAGGER, BOW, CROSSBOW, TRIDENT, SHIELD
+		weapon_type = "TRIDENT"
+		registry_name = "hololive_relics:towa_pitchfork"
+
+	[custom_weaponry.omega_katana]
+		armor_ignorance = 0.4
+		hit_at_once = 2
+		impact = 1.0
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, LONGSWORD, DAGGER, BOW, CROSSBOW, TRIDENT, SHIELD
+		weapon_type = "KATANA"
+		registry_name = "hololive_relics:omega_katana"
+
+	[custom_weaponry.kiara_sword]
+		armor_ignorance = 0.2
+		hit_at_once = 1
+		impact = 1.0
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, LONGSWORD, DAGGER, BOW, CROSSBOW, TRIDENT, SHIELD
+		weapon_type = "SWORD"
+		registry_name = "hololive_relics:kiara_sword"
+
+	[custom_weaponry.calli_scythe]
+		armor_ignorance = 0.2
+		hit_at_once = 1
+		impact = 1.0
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, LONGSWORD, DAGGER, BOW, CROSSBOW, TRIDENT, SHIELD
+		weapon_type = "HOE"
+		registry_name = "hololive_relics:calliope_scythe"
+
+	[custom_weaponry.kris]
+		armor_ignorance = 0.2
+		hit_at_once = 1
+		impact = 1.0
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, LONGSWORD, DAGGER, BOW, CROSSBOW, TRIDENT, SHIELD
+		weapon_type = "DAGGER"
+		registry_name = "hololive_relics:kris"
+
+	[custom_weaponry.time_dagger]
+		armor_ignorance = 0.2
+		hit_at_once = 1
+		impact = 1.0
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, LONGSWORD, DAGGER, BOW, CROSSBOW, TRIDENT, SHIELD
+		weapon_type = "DAGGER"
+		registry_name = "hololive_relics:time_dagger"
+
+	[custom_weaponry.ayame_katana]
+		armor_ignorance = 0.2
+		hit_at_once = 1
+		impact = 1.3
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, LONGSWORD, DAGGER, BOW, CROSSBOW, TRIDENT, SHIELD
+		weapon_type = "KATANA"
+		registry_name = "hololive_relics:ayame_katana"
+
+	[custom_weaponry.cometstone_axe]
+		armor_ignorance = 0.2
+		hit_at_once = 1
+		impact = 1.0
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, LONGSWORD, DAGGER, BOW, CROSSBOW, TRIDENT, SHIELD
+		weapon_type = "AXE"
+		registry_name = "hololive_relics:cometstone_axe"
+
+	[custom_weaponry.kiara_aurora_sword]
+		armor_ignorance = 0.6
+		hit_at_once = 2
+		impact = 1.3
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, LONGSWORD, DAGGER, BOW, CROSSBOW, TRIDENT, SHIELD
+		weapon_type = "SWORD"
+		registry_name = "hololive_relics:kiara_aurora_sword"
+
+	[custom_weaponry.noel_shield]
+		armor_ignorance = 0.2
+		hit_at_once = 1
+		impact = 1.0
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, LONGSWORD, DAGGER, BOW, CROSSBOW, TRIDENT, SHIELD
+		weapon_type = "SHIELD"
+		registry_name = "hololive_relics:noel_shield"
+
+	[custom_weaponry.broken_sake_weapon]
+		armor_ignorance = 0.2
+		hit_at_once = 1
+		impact = 1.0
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, LONGSWORD, DAGGER, BOW, CROSSBOW, TRIDENT, SHIELD
+		weapon_type = "SWORD"
+		registry_name = "hololive_relics:broken_sake_weapon"
+
+	[custom_weaponry.soul_dagger]
+		armor_ignorance = 0.2
+		hit_at_once = 1
+		impact = 1.0
+		#Allowed Values: AXE, FIST, HOE, PICKAXE, SHOVEL, SWORD, SPEAR, GREATSWORD, KATANA, TACHI, LONGSWORD, DAGGER, BOW, CROSSBOW, TRIDENT, SHIELD
+		weapon_type = "DAGGER"
+		registry_name = "hololive_relics:soul_dagger"
+
 	[custom_weaponry.skillet]
 		armor_ignorance = 0.8
 		impact = 1.3
