@@ -2,6 +2,35 @@
 
 A custom modpack for HoloNews server.
 
+# Gameplay Guide
+
+This modpack includes some unusual mods that drastically changed how you play the game, and this guide aims to introduce you to those mods, at the very least on the surface level.
+
+## Epic Fight
+
+Epic Fight is a combat overhaul mod that completely changed the combat system in Minecraft to be more Dark Soul-like. You can chain combo, dodge, and stun the enemy. Even your weapon has different hitboxes and playstyle! However, this means you must __manually__ enter this combat mode by pressing <kbd>G</kbd> to attack any mobs, so please be mindful that you are in a combat mode before heading straight into a fight.
+
+## Ice and Fire: Dragons
+
+Ice & Fire mod adds mythical creatures such as Griffin or Dragon to the game, roaming across the sky. But be careful not to get too close; these creatures are extremely territorial and will most likely attack you in the early game!
+
+## Geolosys
+
+Geolosys completely changed how ores are distributed underground; both vanilla and modded ores will **no longer be generated in caves** as you might've expected.  
+You should be looking out for an "ore sample" above the surface instead, which will look like a bunch of tiny rocks slightly tinted with the ore color; these samples indicated that there is a huge ore vein of that specific ore type below them that you can look out for. You can also smelt these samples just like ores which are useful for the early game where locating the ore vein is difficult.  
+After getting geared up, you should craft a **Prospector's Pick**, a tool that can tell you the ore vein's direction.
+
+## Pollution of The Realms
+
+Your machines can emit a cloud of carbon and sulfur gas when being used. If accumulated in an area overtimes, it will cause a negative effect (and even explode!). For early game, the amount emitted is negligible, but it might be a problem when you become industrialized.
+
+Carbon can be pulled back to the ground by planting trees and crops below them, while Sulfur will absolutely not come down unless you clean it up yourself or prevent it from floating up there with a "Pollution Filter". You can also use chimneys from the Advanced Chimneys mod to direct the pollution to the area you want.
+
+## Hololive
+
+Hololive Relics added relics with powerful properties related to their respective members and hololive members to the world.
+
+
 # Installation
 
 1. Head to the release page on [GitHub](https://github.com/oOBoomberOo/holocraft/releases) ![release-page](./assets/release-1.png)
@@ -34,32 +63,3 @@ A custom modpack for HoloNews server.
 7. Click "OK" to proceed with the import.
 8. A new MultiMC instance will be created like below.  
 ![](./assets/multimc-4.png)
-
-
-# Gameplay Guide
-
-This datapack includes some unusual mods that drastically changed how you play the game, and this guide aims to introduce you to those mods, at the very least on the surface level.
-
-## Epic Fight
-
-Epic Fight is a combat overhaul mod that completely changed the combat system in Minecraft to be more Dark Soul-like. You can chain combo, dodge, and stun the enemy. Even your weapon has different hitboxes and playstyle! However, this means you must __manually__ enter this combat mode by pressing <kbd>G</kbd> to attack any mobs, so please be mindful that you are in a combat mode before heading straight into a fight.
-
-## Ice and Fire: Dragons
-
-Ice & Fire mod adds mythical creatures such as Griffin or Dragon to the game, roaming across the sky. But be careful not to get too close; these creatures are extremely territorial and will most likely attack you in the early game!
-
-## Geolosys
-
-Geolosys completely changed how ores are distributed underground; both vanilla and modded ores will **no longer be generated in caves** as you might've expected.  
-You should be looking out for an "ore sample" above the surface instead, which will look like a bunch of tiny rocks slightly tinted with the ore color; these samples indicated that there is a huge ore vein of that specific ore type below them that you can look out for. You can also smelt these samples just like ores which are useful for the early game where locating the ore vein is difficult.  
-After getting geared up, you should craft a **Prospector's Pick**, a tool that can tell you the ore vein's direction.
-
-## Pollution of The Realms
-
-Your machines can emit a cloud of carbon and sulfur gas when being used. If accumulated in an area overtimes, it will cause a negative effect (and even explode!). For early game, the amount emitted is negligible, but it might be a problem when you become industrialized.
-
-Carbon can be pulled back to the ground by planting trees and crops below them, while Sulfur will absolutely not come down unless you clean it up yourself or prevent it from floating up there with a "Pollution Filter". You can also use chimneys from the Advanced Chimneys mod to direct the pollution to the area you want.
-
-## Hololive
-
-Hololive Relics added relics with powerful properties related to their respective members and hololive members to the world.
