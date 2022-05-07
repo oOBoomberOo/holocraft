@@ -1,6 +1,6 @@
 # HoloCraft
 
-A custom modpack for HoloNews server.
+A custom modpack for HoloNews server. The pack has been carefully optimized to run on a low-end PC, you should be able to play the game with just 2.5GB of memory allocated, but I would recommend 4GB for the best experience.
 
 # Gameplay Guide
 
