@@ -1,1 +1,2 @@
 gamerule doVanillaAttack false
+gamerule keepSkills true
