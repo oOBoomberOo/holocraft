@@ -260,13 +260,13 @@
 	[Mobs.Stymphalians]
 		#How many blocks away can stymphalian birds spot potential prey. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
-		"Stymphalian Bird Target Search Length" = 64
+		"Stymphalian Bird Target Search Length" = 24
 		#1/this number chance for a stymphalian feather to turn into an item before despawning. Zero means never.
 		#Range: 0 ~ 10000
 		"Stymphalian Bird Feather Drop Chance" = 25
 		#Stymphalian bird feather attack strength.
 		#Range: 0.0 ~ 10000.0
-		"Stymphalian Bird Feather Attack Strength" = 1.0
+		"Stymphalian Bird Feather Attack Strength" = 0.5
 		#How far away stymphalian birds will consider other birds to be in the same flock.
 		#Range: 1 ~ 10000
 		"Stymphalian Bird Flock Length" = 40
@@ -281,7 +281,7 @@
 		"Stymphalian Birds Target Animals" = false
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Stymhphalian Bird Chance" = 80
+		"Spawn Stymhphalian Bird Chance" = 250
 
 	[Mobs.Trolls]
 		#True if trolls are allowed to spawn
@@ -350,7 +350,7 @@
 		"Spawn Sea Serpents" = true
 		#1 out of this number chance per chunk for generation
 		#Range: 1 ~ 10000
-		"Spawn Sea Serpent Chance" = 250
+		"Spawn Sea Serpent Chance" = 1000
 		#Whether or not sea serpents can break weak blocks in their way
 		"Sea Serpent Griefing" = true
 		#Default sea serpent health, this is scaled to the sea serpent's particular size
